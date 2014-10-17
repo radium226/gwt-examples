@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Custom-built GWT. You probably want to uncomment the DOCTYPE and point it to your GWT checkout
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 0.0.0//EN" "file:///path/to/gwt/checkout/distro-source/core/src/gwt-module.dtd">
+-->
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='radium.index'/>
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/index/greet" class="radium.server.GreetingServiceImpl" />
+
+</module>
