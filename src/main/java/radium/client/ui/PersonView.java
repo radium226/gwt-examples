@@ -15,7 +15,7 @@ public class PersonView extends Composite {
     interface PersonViewUiBinder extends UiBinder<Widget, PersonView> {}
     private static PersonViewUiBinder uiBinder = GWT.create(PersonViewUiBinder.class);
     
-    
+    @UiField
     DateTimePicker startDate;
     
     public PersonView() {
