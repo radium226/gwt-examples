@@ -12,6 +12,7 @@ import org.gwtbootstrap3.client.ui.ProgressBar;
 import org.gwtbootstrap3.client.ui.constants.ProgressBarType;
 import org.gwtbootstrap3.client.ui.constants.ProgressType;
 import org.gwtbootstrap3.client.ui.gwt.FlowPanel;
+import radium.client.ui.PersonView;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
@@ -34,9 +35,9 @@ public class index implements EntryPoint {
    * This is the entry point method.
    */
   public void onModuleLoad() {
-      final Button button = new Button("Salut! ");
+      //final Button button = new Button("Salut! ");
       final FlowPanel panel = new FlowPanel();
-      final Progress progress = new Progress();
+      /*final Progress progress = new Progress();
       progress.setType(ProgressType.STRIPED);
       progress.setActive(true);
       final ProgressBar bar = new ProgressBar();
@@ -51,7 +52,8 @@ public class index implements EntryPoint {
           
       });
       panel.add(button);
-      panel.add(progress);
+      panel.add(progress);*/
+      panel.add(new PersonView());
       RootPanel.get().add(panel);
   }
 }
