@@ -43,7 +43,7 @@
             <url>https://nexus.codehaus.org/content/repositories/snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
-		<!--<updatePolicy>always</updatePolicy>-->
+                <!--<updatePolicy>always</updatePolicy>-->
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
@@ -96,6 +96,23 @@
             <artifactId>gwtbootstrap3-extras</artifactId>
             <version>0.9-SNAPSHOT</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.realityforge.gwt.websockets</groupId>
+            <artifactId>gwt-websockets</artifactId>
+            <version>1.1.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty.aggregate</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>8.1.12.v20130726</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty.aggregate</groupId>
+            <artifactId>jetty-websocket</artifactId>
+            <version>8.1.12.v20130726</version>
         </dependency>
     </dependencies>
 

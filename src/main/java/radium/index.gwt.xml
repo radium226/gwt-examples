@@ -12,6 +12,8 @@
   <inherits name="org.gwtbootstrap3.GwtBootstrap3"/>
   <inherits name="org.gwtbootstrap3.extras.datetimepicker.DateTimePicker"/>
   <inherits name="org.gwtbootstrap3.extras.slider.Slider"/>
+  <inherits name="org.realityforge.gwt.websockets.WebSockets"/>
+   <inherits name="com.google.gwt.logging.Logging"/>
   <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
   <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
   <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->

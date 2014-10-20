@@ -16,6 +16,16 @@
     <url-pattern>/index/greet</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+    <servlet-name>Sputnik WebSocket</servlet-name>
+    <servlet-class>radium.server.SputnikWebSocketServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Sputnik WebSocket</servlet-name>
+    <url-pattern>/sputnik</url-pattern>
+  </servlet-mapping>
+  
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
